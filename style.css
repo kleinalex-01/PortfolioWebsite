@@ -1,5 +1,19 @@
+/* Main styles including headers and or big sections*/
+
+html {
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:"width" 100;
+}
+
+
 body {
-    background-image: linear-gradient(
+  padding: 0;
+  margin:  0;
+  background-image: linear-gradient(
   0deg,
   hsl(208deg 20% 24%) 0%,
   hsl(256deg 14% 32%) 44%,
@@ -9,4 +23,61 @@ body {
   hsl(291deg 21% 48%) 100%,
   hsl(293deg 23% 51%) 101%
 );
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+p {
+  background: -webkit-linear-gradient(0deg,
+  hsl(208deg 20% 24%) 0%,
+  hsl(256deg 14% 32%) 44%,
+  hsl(275deg 17% 37%) 68%,
+  hsl(283deg 19% 41%) 84%,
+  hsl(288deg 20% 44%) 94%,
+  hsl(291deg 21% 48%) 100%,
+  hsl(293deg 23% 51%) 101% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.text-flex-container {
+  color: #C7C8CC;
+  display: flex;
+  height: 20rem;
+  background-color: red;
+}
+
+.text-outer-container {
+  height: 80%;
+  display: flex;
+}
+
+.text-inner-container {
+  text-align: center;
+
+}
+
+.button-container {
+  text-align: center;
+  width: 20%;
+  margin: 10rem auto;
+  background-color: #C7C8CC;
+}
+
