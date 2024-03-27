@@ -1,4 +1,3 @@
-/* Main styles including headers and or big sections*/
 
 html {
   font-size: 16px;
@@ -22,11 +21,7 @@ body {
   hsl(288deg 20% 44%) 94%,
   hsl(291deg 21% 48%) 100%,
   hsl(293deg 23% 51%) 101%
-);
-display: flex;
-align-items: center;
-justify-content: center;
-}
+);}
 
 p {
   background: -webkit-linear-gradient(0deg,
@@ -39,45 +34,50 @@ p {
   hsl(293deg 23% 51%) 101% );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 1.25rem;
 }
 
 h1 {
   font-size: 3rem;
+  color: wheat;
+  text-shadow: 1px 0px 1px gray, 0px 1px 1px gray, 2px 1px 1px gray, 1px 2px 1px gray, 3px 2px 1px gray, 2px 3px 1px gray, 4px 3px 1px gray, 3px 4px 1px gray, 5px 4px 1px gray, 4px 5px 1px gray, 6px 5px 1px gray, 5px 6px 1px gray, 7px 6px 1px gray;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 350;
+  color: wheat;
+  text-shadow: 1px 0px 1px gray, 0px 1px 1px gray, 2px 1px 1px gray, 1px 2px 1px gray, 3px 2px 1px gray, 2px 3px 1px gray, 4px 3px 1px gray, 3px 4px 1px gray, 5px 4px 1px gray, 4px 5px 1px gray, 6px 5px 1px gray, 5px 6px 1px gray, 7px 6px 1px gray;
 }
 
+/* Containers for text */
 
-
-
-
-
-
-
-
-.text-flex-container {
-  color: #C7C8CC;
-  display: flex;
-  height: 20rem;
-  background-color: red;
+.h1-container {
+text-align: center;
+letter-spacing: 0.125rem;
+position: relative;
+top: 30%;
 }
 
-.text-outer-container {
-  height: 80%;
-  display: flex;
+.h2-container {
+width: 30%;
+text-align: center;
+letter-spacing: 0.125rem;
+position: relative;
+top: 30%;
+margin: 0 auto;
 }
 
-.text-inner-container {
-  text-align: center;
-
-}
-
-.button-container {
-  text-align: center;
+.p-container {
+  letter-spacing: 0.075rem;
   width: 20%;
-  margin: 10rem auto;
-  background-color: #C7C8CC;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  margin: 0 auto;
+  background-color: wheat;
+  border-radius: 3rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  cursor: pointer;
 }
-
